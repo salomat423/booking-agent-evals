@@ -1,0 +1,24 @@
+{
+  "_comment": "Demo data. 'today' is fixed so evals are reproducible; override with BOOKING_TODAY.",
+  "today": "2026-11-23",
+  "opening_hour": 10,
+  "last_start_hour": 20,
+  "max_days_ahead": 14,
+  "services": {
+    "haircut": {"name": "Men's haircut", "price_kzt": 6000, "masters": ["Arman", "Dias"]},
+    "beard": {"name": "Beard trim and shaping", "price_kzt": 3500, "masters": ["Arman", "Dias"]},
+    "combo": {"name": "Haircut + beard combo", "price_kzt": 8500, "masters": ["Arman"]},
+    "kids": {"name": "Kids haircut (under 12)", "price_kzt": 4500, "masters": ["Arman", "Dias"]},
+    "shave": {"name": "Head shave", "price_kzt": 5000, "masters": ["Arman", "Dias"]}
+  },
+  "existing_bookings": [
+    {"date": "2026-11-24", "time": "14:00", "master": "Arman"},
+    {"date": "2026-11-24", "time": "15:00", "master": "Arman"},
+    {"date": "2026-11-24", "time": "15:00", "master": "Dias"},
+    {"date": "2026-11-24", "time": "16:00", "master": "Dias"},
+    {"date": "2026-11-24", "time": "18:00", "master": "Arman"},
+    {"date": "2026-11-24", "time": "18:00", "master": "Dias"},
+    {"date": "2026-11-25", "time": "12:00", "master": "Arman"},
+    {"date": "2026-11-25", "time": "12:00", "master": "Dias"}
+  ]
+}
